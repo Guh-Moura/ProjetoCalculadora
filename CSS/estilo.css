@@ -11,15 +11,21 @@
   border: 1px solid red;
   justify-content: center;
   align-items: center;
-  height: 900px;
+  height: 400px;
+  width: 290px;
+  margin-top: 12%;
+  margin-left: 45%;
+  margin-right: 45%;
 }
 button {
   padding: 15px;
   padding-left: 22px;
   padding-right: 22px;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: bold;
   color: rgb(73, 73, 73);
+  height: 3.75rem;
+  width: 3.75rem;
 }
 .sinais {
   background-color: orange;
@@ -31,4 +37,15 @@ button {
 }
 .sinais:active {
   background-color: rgb(179, 116, 0);
+}
+#input {
+  font-size: 30px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+.calculadora {
+  width: 90%;
+  margin: 5%;
 }
