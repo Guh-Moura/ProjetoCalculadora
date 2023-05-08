@@ -15,29 +15,33 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="pag">
-      <div class="calculadora">
-        <input type="text" id="input" />
-        <button id="0">0</button>
-        <button id="1">1</button>
-        <button id="2">2</button>
-        <button id="3">3</button>
-        <button id="4">4</button>
-        <button id="5">5</button>
-        <button id="6">6</button>
-        <button id="7">7</button>
-        <button id="8">8</button>
-        <button id="9">9</button>
-        <button id="," class="sinais">,</button>
-        <button id="+" class="sinais">+</button>
-        <button id="-" class="sinais">-</button>
-        <button id="*" class="sinais">*</button>
-        <button id="/" class="sinais">/</button>
-        <button id="c" class="sinais">C</button>
-        <button id="=" class="sinais">=</button>
+    <div class="background">
+      <div class="container">
+        <div class="pag">
+          <div class="calculadora">
+            <input type="text" id="input" />
+            <button id="c" class="sinais" onclick="limpar()">C</button>
+            <button id="backspace" class="sinais" onclick="back()"><</button>
+            <button id="/" class="sinais" onclick="insert('/')">/</button>
+            <button id="7" onclick="insert('7')">7</button>
+            <button id="8" onclick="insert('8')">8</button>
+            <button id="9" onclick="insert('9')">9</button>
+            <button id="*" class="sinais" onclick="insert('*')">*</button>
+            <button id="4" onclick="insert('4')">4</button>
+            <button id="5" onclick="insert('5')">5</button>
+            <button id="6" onclick="insert('6')">6</button>
+            <button id="-" class="sinais" onclick="insert('-')">-</button>
+            <button id="1" onclick="insert('1')">1</button>
+            <button id="2" onclick="insert('2')">2</button>
+            <button id="3" onclick="insert('3')">3</button>
+            <button id="+" class="sinais" onclick="insert('+')">+</button>
+            <button id="zero" onclick="insert('0')">0</button>
+            <button id="." class="sinais" onclick="insert('.')">.</button>
+            <button id="=" class="sinais" onclick="calcular()">=</button>
+          </div>
+        </div>
       </div>
     </div>
-
     <script src="JS/script.js"></script>
   </body>
 </html>
