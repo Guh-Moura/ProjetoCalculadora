@@ -21,3 +21,4 @@ function calcular(){
         document.getElementById('input').value = 'Erro'
     }
 }
+document.getElementById('input').focus()

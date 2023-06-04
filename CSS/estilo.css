@@ -6,9 +6,9 @@
 }
 
 .background {
-  width: 100;
   height: 100vh;
-  background-image: linear-gradient(135deg, rgb(224, 245, 255), rgb(142, 219, 255));
+  background-color: rgb(50, 50, 83);
+ /* background-image: linear-gradient(135deg, rgb(42, 51, 100), rgb(255, 255, 255));*/
 }
 
 .container {
@@ -25,10 +25,10 @@
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: auto;
   width: 290px;
-  padding-bottom: 30px;
-  background-color: rgb(218, 218, 218);
+  padding-bottom: 20px;
+  background-color: rgb(82, 117, 109);
 }
 button {
   padding-left: 22px;
@@ -46,15 +46,16 @@ button {
   width: 7.9063rem;
 }
 .sinais {
-  background-color: orange;
+  background-color: rgb(74, 74, 117);
   border: 1px gray solid;
   border-radius: 5px;
+  color: aliceblue;
 }
 .sinais:hover {
-  background-color: rgb(231, 150, 0);
+  background-color: rgb(65, 65, 104);
 }
 .sinais:active {
-  background-color: rgb(179, 116, 0);
+  background-color: rgb(56, 56, 88);
 }
 #input {
   font-size: 30px;
@@ -62,7 +63,7 @@ button {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: right;
 }
 input:focus {
